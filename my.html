@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="my.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav>
+            <h1>Dave<span>Dev</span></h1>
+            <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+            <label for="menu-toggle" class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- home -->
+        <section id="hero">
+            <div class="hero-container">
+                <!-- Left Side: Text -->
+                <div class="hero-text">
+                    <h1>Hi, I'm Dave</h1>
+                    <p>
+                        An aspiring web developer passionate about creating
+                        modern, responsive, and user-friendly websites.
+                        I enjoy turning ideas into reality through clean and efficient code.
+                    </p>
+                    <a href="#skills" class="btn">View My Skills</a>
+                    <a href="#contact" class="btn"> Hire Me</a>
+                </div>
+
+                <!-- Right Side: Image -->
+                <div class="hero-image">
+                    <img src="img/OTOT.jpg" alt="my-photo">
+                </div>
+            </div>
+        </section>
+
+        <!-- about -->
+        <section id="about">
+            <div class="about-container">
+                <!-- Left Side: Image -->
+                <div class="about-image">
+                    <img src="img/OTOT.jpg" alt="my-photo">
+                </div>
+
+                <!-- Right Side: Text -->
+                <div class="about-text">
+                    <h1>About Me</h1>
+                    <p>
+                        Hi, I'm <strong>Dave</strong> 👋, an aspiring web developer passionate about creating
+                        modern, responsive, and user-friendly websites.
+                        I enjoy turning ideas into reality through clean and efficient code.
+                    </p>
+                    <p>
+                        My focus is on learning new technologies, improving my skills every day, and
+                        building projects that make a real impact.
+                        Outside coding, I like exploring design trends, problem-solving, and
+                        continuous self-growth.
+                    </p>
+                    <a href="#skills" class="btn">View My Skills</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills">
+            <div class="container">
+                <h1>My Skills</h1>
+                <div class="carousel" role="region" aria-roledescription="carousel" aria-label="Skills carousel">
+                    <div class="track">
+                        <div class="card">C++</div>
+                        <div class="card">Python</div>
+                        <div class="card">HTML</div>
+                        <div class="card">CSS</div>
+                        <div class="card">C</div>
+                        <div class="card">.NET</div>
+                        <div class="card">MS Access</div>
+                        <!-- duplicates for seamless loop -->
+                        <div class="card">C++</div>
+                        <div class="card">Python</div>
+                        <div class="card">HTML</div>
+                        <div class="card">CSS</div>
+                        <div class="card">C</div>
+                        <div class="card">.NET</div>
+                        <div class="card">MS Access</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Experience -->
+
+        <section id="experience" class="section experience" aria-label="Experience">
+            <div class="container">
+                <h2>Experience</h2>
+                <div class="gallery">
+                    <figure class="tile">
+                        <div class="img ph1" role="img" aria-label="Project 1">
+                            <img src="img/OTOT.jpg" alt="">
+                        </div>
+                        <figcaption>
+                            <h3>Project One</h3>
+                            <p>Platform modernization with performance-first refactors.</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="tile">
+                        <div class="img ph2" role="img" aria-label="Project 2">
+                            <img src="img/OTOT.jpg" alt="">
+                        </div>
+                        <figcaption>
+                            <h3>Project Two</h3>
+                            <p>Design system and component library for enterprise UI.</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="tile">
+                        <div class="img ph3" role="img" aria-label="Project 3">
+                            <img src="img/OTOT.jpg" alt="">
+                        </div>
+                        <figcaption>
+                            <h3>Project Three</h3>
+                            <p>Data tooling and internal dashboards for teams.</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="tile">
+                        <div class="img ph4" role="img" aria-label="Project 4">
+                            <img src="img/OTOT.jpg" alt="">
+                        </div>
+                        <figcaption>
+                            <h3>Project Four</h3>
+                            <p>Mobile-friendly web app with offline-first UX.</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="tile">
+                        <div class="img ph5" role="img" aria-label="Project 5">
+                            <img src="img/OTOT.jpg" alt="">
+                        </div>
+                        <figcaption>
+                            <h3>Project Five</h3>
+                            <p>Automation scripts and pipelines for releases.</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="tile">
+                        <div class="img ph6" role="img" aria-label="Project 6">
+                            <img src="img/OTOT.jpg" alt="">
+                        </div>
+                        <figcaption>
+                            <h3>Project Six</h3>
+                            <p>Accessibility upgrades and audits across apps.</p>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+
+        </section>
+        <!-- Contact -->
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact" aria-label="Contact">
+            <div class="container contact-grid">
+                <!-- Left Side: Contact Info & Social Links -->
+                <div class="contact-left">
+                    <div class="contact-text">
+                        <h2>Contact Me</h2>
+                        <p>Let's build something great. Reach out and I'll get back to you.</p>
+                        <ul class="contact-details">
+                            <li>Email: <a href="mailto:you@example.com">you@example.com</a></li>
+                            <li>Location: Your City, Country</li>
+                        </ul>
+                    </div>
+                    <div class="social-section">
+                        <h3>Follow Me</h3>
+                        <ul class="accounts-links">
+                            <li><img src="img/fb.jpg" alt="facebook-acc"><a href="https://www.facebook.com/dave.mathew.campo" target="_blank"></a></img></li>
+                            <li><img src="img/insta.png" alt="insta-acc"><a href="https://www.instagram.com/evad_zti?igsh=a21pZjc4dHkxMGNm" target="_blank"></a></img></li>
+                            <li><img src="img/whatsapp.jpg" alt="whatsapp-acc"><a href="" target="_blank"></a></img></li>
+                            <li><img src="img/tele.png" alt=""><a href="tele-acc" target="_blank"></a></img></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Right Side: Contact Form -->
+                <div class="contact-right">
+                    <form class="contact-form" action="#" method="post">
+                        <h3>Send Message</h3>
+                        <label>
+                            <span>Name</span>
+                            <input type="text" name="name" placeholder="Your name" required>
+                        </label>
+                        <label>
+                            <span>Email</span>
+                            <input type="email" name="email" placeholder="you@example.com" required>
+                        </label>
+                        <label>
+                            <span>Message</span>
+                            <textarea name="message" rows="4" placeholder="How can I help?" required></textarea>
+                        </label>
+                        <button class="btn primary" type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+<footer>
+  <marquee behavior="scroll" direction="left" scrollamount="5">
+    © 2025 Dave Dev — All Rights Reserved | Follow me on Facebook • Twitter • LinkedIn | Contact: your@email.com
+  </marquee>
+</footer>
+</html>
