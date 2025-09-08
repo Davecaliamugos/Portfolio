@@ -131,8 +131,8 @@ nav h1 span {
 
 .tile figcaption { position: absolute; inset: auto 0 0 0; padding: 1.5rem; background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.9)); transform: translateY(100%); transition: transform 0.3s ease; color: #fff; }
 .tile:hover figcaption, .tile:focus-within figcaption { transform: translateY(0); }
-.tile figcaption h3 { font-size: 1.2rem; font-weight: 600; margin-bottom: 0.5rem; color: var(--primary-color); text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); }
-.tile figcaption p { font-size: 0.9rem; line-height: 1.5; opacity: 0.9; margin: 0; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); }
+.tile figcaption h3 { font-size: 1.2rem; font-weight: 600; margin-bottom: 0.5rem; color: black; text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); }
+.tile figcaption p { font-size: 0.9rem; line-height: 1.5; opacity: 0.9; margin: 0; color: gold; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); }
 
 /* Gallery loading shimmer effect */
 .tile::after { content: ""; position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent); transition: left 0.5s ease; z-index: 2; }
